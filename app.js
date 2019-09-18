@@ -9,8 +9,8 @@ app.use(express.static('./public'))
 app.use(parser.urlencoded({extended: false}))
 app.use(router)
 
-
-app.listen(3003, () => {
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => {
     console.log('server is up')
 })
 
