@@ -12,10 +12,10 @@ const mysql = require('mysql')
 // https://www.guidearea.com/best-database-practices-single-connection-vs-connection-pool/ 
 const connection = mysql.createPool({
     connectionLimit: 10,
-    host: '79.191.241.44',
-    user: 'root',
-    password: 'sample123',
-    database: 'example_users',
+    host: 'us-cdbr-iron-east-02.cleardb.net',
+    user: 'b68e2064709296',
+    password: 'c7cb2362',
+    database: 'heroku_35e9a9a60bbfe9c',
 })
 
 module.exports = connection
