@@ -1,21 +1,21 @@
 {
-  "name": "nodejs-rest-api-tutorial",
+  "name": "expressjs-rest-api-tutorial",
   "version": "1.0.0",
-  "description": "Code from [youtube playlist](https://www.youtube.com/watch?v=F7NVpxxmmgM&list=PL0dzCUj1L5JE4w_OctDGyZOhML6OtJSqR)",
+  "description": "Sample project",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GenixPL/nodejs-rest-api-tutorial.git"
+    "url": "git+https://github.com/GenixPL/expressjs-rest-api-tutorial.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GenixPL/nodejs-rest-api-tutorial/issues"
+    "url": "https://github.com/GenixPL/expressjs-rest-api-tutorial/issues"
   },
-  "homepage": "https://github.com/GenixPL/nodejs-rest-api-tutorial#readme",
+  "homepage": "https://github.com/GenixPL/expressjs-rest-api-tutorial#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
