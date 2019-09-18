@@ -12,7 +12,7 @@ const mysql = require('mysql')
 // https://www.guidearea.com/best-database-practices-single-connection-vs-connection-pool/ 
 const connection = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
+    host: '79.191.241.44',
     user: 'root',
     password: 'sample123',
     database: 'example_users',
